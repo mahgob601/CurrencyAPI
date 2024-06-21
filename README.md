@@ -18,6 +18,7 @@ This is a Node.js application for currency conversion using the APYHub API.
    ```sh
    npm install
 3. Add the API key in the .env
-4.  Start the server
+   change the key to yours
+5.  Start the server
    ```sh
    npm run dev
