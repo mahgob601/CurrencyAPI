@@ -12,8 +12,8 @@ This is a Node.js application for currency conversion using the APYHub API.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/currency-exchange-api.git
-   cd currency-exchange-api
+   git clone https://github.com/mahgob601/CurrencyAPI.git
+   cd CurrencyAPI
 2. Install dependencies:
    ```sh
    npm install
