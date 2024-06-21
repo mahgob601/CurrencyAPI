@@ -6,7 +6,7 @@ const fetchExchangeRate = async (from, targets) => {
     url: 'https://api.apyhub.com/data/convert/currency/multiple',
     headers: {
       'Content-Type': 'application/json',
-      'apy-token': "APY0MC3JkGdPBEuC6O6jfb7zNbv6uImpSdhIjkvbteFIzAJyiLbcxIREQSAVXJloVBcOR"
+      'apy-token': process.env.APY_TOKEN
     },
     data: { source: from, targets: targets }
   };
